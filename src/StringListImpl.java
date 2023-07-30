@@ -145,6 +145,7 @@ public class StringListImpl implements StringList {
         }
     }
 
+
     private void validateIndex(int index) {
         if (index < 0 || index > size) {
             throw new InvalidIndexException();
